@@ -10,8 +10,8 @@ This repository contains the implementation of the ECCRS classifier and the scri
 - `run_suite.py`: Script to run ECCRS (with different fallback modes) and baselines on the same splits
 - `baselines.py`: Python baselines (trees, rule learners, linear models, kNN, etc.) on the same LP datasets
 - `baselines.py`: Python baselines on the same LP datasets, including:
-                  - Decision trees: `dt_gini`, `dt_entropy`
-                  - Rule learners: `ripper`, `brcg`, `brl_imodels`, `grl`, `rulefit`
-                  - Ensemble and boosting models: `rf` (RandomForestClassifier), `gbdt` (GradientBoostingClassifier), `hgbdt` (HistGradientBoostingClassifier), `ebm` (ExplainableBoostingClassifier)
-                  - Linear and kernel models: `logreg` (LogisticRegression), `svm_linear`, `svm_rbf`
-                  - Naive Bayes: `nb_bern` (BernoulliNB), `nb_gauss` (GaussianNB)
+                  1. Decision trees: `dt_gini`, `dt_entropy`
+                  2. Rule learners: `ripper`, `brcg`, `brl_imodels`, `grl`, `rulefit`
+                  3. Ensemble and boosting models: `rf` (RandomForestClassifier), `gbdt` (GradientBoostingClassifier), `hgbdt` (HistGradientBoostingClassifier), `ebm` (ExplainableBoostingClassifier)
+                  4. Linear and kernel models: `logreg` (LogisticRegression), `svm_linear`, `svm_rbf`
+                  5. Naive Bayes: `nb_bern` (BernoulliNB), `nb_gauss` (GaussianNB)
